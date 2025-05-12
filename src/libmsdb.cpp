@@ -1,6 +1,6 @@
 #include <iostream>
-#include <libmsdb/libmsdb.cpp>
+#include <libmsdb/libmsdb.hpp>
 
-namespace msdb {
-  void say_hello();
+void msdb::say_hello() {
+    std::cout << "Hi!\n";
 }
