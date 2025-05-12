@@ -1,8 +1,5 @@
-//
-// Created by matvey on 11.05.25.
-//
+#pragma once
 
-#ifndef MSDB_LIBMSDB_HPP
-#define MSDB_LIBMSDB_HPP
-
-#endif //MSDB_LIBMSDB_HPP
+namespace msdb {
+  void say_hello();
+}

@@ -1,3 +1,6 @@
-//
-// Created by matvey on 11.05.25.
-//
+#include <iostream>
+#include <libmsdb/libmsdb.cpp>
+
+namespace msdb {
+  void say_hello();
+}
